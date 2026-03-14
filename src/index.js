@@ -12,7 +12,7 @@ const store = createStore(combineReducers({ ...reducers, routing: routerReducer 
 
 ReactDOM.render(
   <Provider store={store}>
-    <BrowserRouter>
+            <BrowserRouter basename="/AlgoVista/">
       <Switch>
         <Route exact path="/scratch-paper/:gistId" component={App}/>
         <Route exact path="/:categoryKey/:algorithmKey" component={App}/>
