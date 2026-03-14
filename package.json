@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "title": "AlgoVista",
   "description": "AlgoVista is an interactive online platform that visualizes algorithms from code.",
+    "homepage": "https://ayushsingh299.github.io/AlgoVista/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
